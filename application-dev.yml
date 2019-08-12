@@ -9,12 +9,12 @@ spring:
     proxy-target-class: true
     auto: true
   rabbitmq:
-    host: lf-mq-rabbit
+    host: rabbitmq.com
     port: 5672
-    username: wujun
-    password: psw123456
+    username: admin
+    password: admin
   redis:
-    host: lf-db-redis
+    host: redis.com
     port: 6379
     timeout: 0
 feign:
